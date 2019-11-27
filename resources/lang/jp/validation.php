@@ -26,7 +26,7 @@ return [
     'between' => [
         'numeric' => 'The :attribute must be between :min and :max.',
         'file' => 'The :attribute must be between :min and :max kilobytes.',
-        'string' => ':attribute は :max 文字以内で入力してください。',
+        'string' => 'The :attribute must be between :min and :max characters.',
         'array' => 'The :attribute must have between :min and :max items.',
     ],
     'boolean' => 'The :attribute field must be true or false.',
@@ -96,7 +96,7 @@ return [
     'password' => 'The password is incorrect.',
     'present' => 'The :attribute field must be present.',
     'regex' => 'The :attribute format is invalid.',
-    'required' => 'The :attribute field is required.',
+    'required' => ':attribute は必須入力です。',
     'required_if' => 'The :attribute field is required when :other is :value.',
     'required_unless' => 'The :attribute field is required unless :other is in :values.',
     'required_with' => 'The :attribute field is required when :values is present.',
